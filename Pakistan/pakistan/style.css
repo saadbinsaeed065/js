@@ -1,0 +1,69 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-color: #b3d9ff;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+nav a:hover{
+    color: #ffff00;
+}
+nav a:active{
+    color: tomato;
+}
+nav{
+    width: 1350px;
+    height: 40px;
+    background-color: black;
+    top: 0px;
+    position: fixed;
+    text-align:right;
+    word-spacing: 5em;
+}
+
+ ul li {
+    display: inline;
+    list-style: none;
+    font-size: larger;
+   
+}
+.two:hover{
+    color: violet;
+}
+.two{
+    text-align: left;
+    width: 1350px;
+    height: 55px;
+    color: #336600;
+    position: fixed;
+    top: 20px;
+   
+}
+.three{
+   margin-left: auto;
+    background-image: url("images/northern.jpg");
+    background-size: 900px 400px;
+    width: 900px;
+    height: 400px;
+    
+}
+.four{
+    margin-right: auto;
+     background-image: url("images/historic.jpg");
+     /* background-size: 900px 800px; */
+     width: 900px;
+     height: 400px;
+     margin-right: auto;
+     
+ }
+ .five{
+    margin-left: auto;
+     background-image: url("images/people.jpg");
+     /* background-size: 900px 800px; */
+     width: 640px;
+     height: 960px;
+     margin-right: auto;
+     
+ }
